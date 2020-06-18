@@ -1,6 +1,6 @@
 <!doctype html>
 <h1>Create a Team and Heroes!</h1>
-<form method="POST",action="/" >
+<form method="POST",action="/teams" >
   <label for="team_name">Team Name:</label>
   <input type="text" id="team_name" name="team[name]"><br>
   
@@ -11,7 +11,7 @@
   
 <h1>Hero 1</h1>
 
-<form method="POST", action="/" >
+<form method="POST", action="/teams" >
   <label for="hero_name_1">Hero's Name:</label>
   <input type="text" id= "hero_name_1" name="team[members][][name]"><br>
   
@@ -25,7 +25,7 @@
 
 <h1>Hero 2</h1>
 
-<form method="POST", action="/" >
+<form method="POST", action="/teams" >
   <label for="hero_name_2">Hero's Name:</label>
   <input type="text" id= "hero_name_2" name="team[heros][][name]"><br>
   
@@ -39,7 +39,7 @@
 
 <h1>Hero 3</h1>
 
-<form method="POST", action="/" >
+<form method="POST", action="/teams" >
   <label for="hero_name_3">Hero's Name:</label>
   <input type="text" id= "hero_name_3" name="team[heros][][name]"><br>
   
